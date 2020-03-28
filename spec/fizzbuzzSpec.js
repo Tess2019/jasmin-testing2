@@ -1,5 +1,5 @@
 describe ("my fizzbuzz game function", function(){
-it (should return numbers divisible by 3 and 5 );
+
    
 beforeEach(function(){
         fizzbuzz= new fizzBuzz();
@@ -22,13 +22,13 @@ it("should return fizzBuzz when called as fizzBuzz (15)", function(){
         var result = fizzBuzz(15);
         expect(result).toBe(fizzBuzz);
     });
-it("should return 0 or zero when called as fizzBuzz (0)", function(){
+it("should return 0 or Zero when called as fizzBuzz (0)", function(){
         var result = fizzBuzz(0);
         expect(result).toBe(Zero);
     });
 
-}
+});
 
 
 
-}
+});
