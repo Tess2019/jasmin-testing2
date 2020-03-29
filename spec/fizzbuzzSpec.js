@@ -10,17 +10,17 @@ describe("returns fizzBuzz, fizz, buzz or numbers", function(){
     });
     
 
-    it("should return fizz when called as fizzBuzz (3)", function(){
-        var result = fizzBuzz(3);
-        expect(result).toBe(fizz);
+    it("should return fizz when called as fizzBuzz (9)", function(){
+        var result = fizzBuzz(9);
+        expect(result).toBe("fizz");
     });
-it("should return Buzz when called as fizzBuzz (5)", function(){
-        var result = fizzBuzz(5);
-        expect(result).toBe(Buzz);
+it("should return Buzz when called as fizzBuzz (10)", function(){
+        var result = fizzBuzz(10);
+        expect(result).toBe("Buzz");
     });
 it("should return fizzBuzz when called as fizzBuzz (15)", function(){
         var result = fizzBuzz(15);
-        expect(result).toBe(fizzBuzz);
+        expect(result).toBe("fizzBuzz");
     });
 it("should return 2 when called as fizzBuzz (2)", function(){
         var result = fizzBuzz(2);
